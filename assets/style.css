@@ -1,0 +1,21 @@
+    #jumbo {
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    } 
+    
+    
+    
+    /* Default height for small devices */
+    #jumbo {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #jumbo {
+        height: 600px;
+      }
+    }
