@@ -1,8 +1,44 @@
+/* colors nav and footer- #002458 cards  */
 
 
-/* #projects h3 h4 h5 {
-  text-align: center;
-} */
+.navbar {
+  background-color: #002458;
+}
+
+a.nav-link{
+  color:whitesmoke;
+}
+
+header nav ul li a:hover {
+  text-shadow: 0 0 20px white;
+}
+
+.fa-bars:before {
+  content: "\f0c9";
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+ main p {
+  color: whitesmoke;
+}
+
+body {
+  background-color: #2964A6;
+}
+
+#languages-icons {
+  color:white;
+}
+
+
+footer #footer-background {
+  background-color: #002458;
+}
+
 
 #jumbo {
       min-height: 500px;
