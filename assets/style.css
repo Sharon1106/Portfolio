@@ -1,8 +1,9 @@
 /* colors nav and footer- #002458 cards  */
 
 
-.navbar {
-  background-color: #002458;
+#navbar {
+  background-color: #002558;
+  position:sticky;
 }
 
 a.nav-link{
@@ -17,17 +18,24 @@ header nav ul li a:hover {
   content: "\f0c9";
   color: white;
 }
-
+span {
+  color:#254f8f;
+  font-weight: bold;
+}
 h3 {
   color: white;
 }
 
- main p {
+main p {
   color: whitesmoke;
 }
 
 body {
-  background-color: #2964A6;
+  background-color: #002458;
+}
+
+#projects {
+  color:whitesmoke
 }
 
 #languages-icons {
@@ -35,10 +43,14 @@ body {
 }
 
 
-footer #footer-background {
-  background-color: #002458;
+#footer-text{
+  color:white;
+  background-color: #002558;
 }
 
+.copyright {
+  color:white;
+}
 
 #jumbo {
       min-height: 500px;

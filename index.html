@@ -28,7 +28,7 @@
 
   <header>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav id="navbar" class="navbar navbar-expand-lg sticky-top fixed-top ">
   <!-- Container wrapper centered-->
   <div class="container">
     <!-- Navbar brand -->
@@ -121,14 +121,16 @@
 <div
 id="jumbo"
 class="p-5 text-center bg-image shadow-2-strong"
-style="background-image: url('assets/images/utah.JPG')"
+style="background-image: url('assets/images/utah.JPG') "
 >
-<div class="mask" style="background-color: rgba(0, 0, 0, 0.5)">
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
   <!-- center elements -->
   <div class="d-flex justify-content-center align-items-center h-100">
     <div class="text-white">
-      <h1 class="mb-3">Sharon Martinez</h1>
-      <h5 class="mb-3 mx-5">Web Developer</h5>
+      <h5 class="mb-3 mx-5">Hi there! My name is <br>
+        <span><h1>Sharon Martinez</h1></span> 
+        <br>
+        I am a web developer based in Los Angeles, Ca.</h5>
       <a
         class="btn btn-outline-light btn-lg m-2 "
         href="#about-me"
@@ -193,18 +195,19 @@ style="background-image: url('assets/images/utah.JPG')"
       <hr>
       <!-- projects section -->
     <section id="projects" class="text-center">
-      <h3 class="my-5"><strong>Recent Projects</strong></h3>
-      <h4>A few projects I've been working on.</h4>
+      <h3 class="my-5"><strong>Projects</strong></h3>
+      <h5>A few projects I've been working on.</h5>
       <br>
-      <h5>Stay tuned, there's more on the way!</h5>
+      <p>Stay tuned, there's more on the way!</p>
       <!-- project cards -->
       <div class="row">
         <!-- on large screens 4 columns, on medium screens 12 columns -->
-        <div class="col-lg-4 col-md-12 my-5">
+        <div class="col-lg-4 col-md-12 my-5 shadow-5 hover-shadow">
           <div class="card">
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+              <!-- CARD IMAGE -->
+              <img 
+                src="assets/images/WeWantTravel.png"
                 class="img-fluid"
               />
               <a href="#!">
@@ -212,17 +215,16 @@ style="background-image: url('assets/images/utah.JPG')"
               </a>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">We want travel!</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                HTML|CSS|JS|API
               </p>
               <a href="#!" class="btn btn-primary rounded-pill">See it live</a>
               <a href="#!" class="btn btn-primary rounded-pill">Code Peek</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 my-5">
+        <div class="col-lg-4 col-md-6 my-5 hover-shadow">
           <div class="card">
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
               <img
@@ -244,7 +246,7 @@ style="background-image: url('assets/images/utah.JPG')"
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 my-5">
+        <div class="col-lg-4 col-md-6 my-5 hover-shadow">
           <div class="card">
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
               <img
@@ -320,11 +322,14 @@ style="background-image: url('assets/images/utah.JPG')"
   
       <!-- Copyright -->
     </footer>
-      <div class="text-center p-3" id="footer-backgound">
-      © 2021 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Sharon Martinez</a>
+      <div class="copyright text-center p-3" id="footer-text">
+      Made with 
+      <img src="assets/images/heart icon.png" height="25" alt="heart-icon">
+      <a class="text-white" href="https://mdbootstrap.com/"> by Sharon Martinez</a>
     </div>
   </footer>
+
+  
 
 <!-- MDB -->
 <script
