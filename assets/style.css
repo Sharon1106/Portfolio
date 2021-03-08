@@ -1,6 +1,6 @@
 /* colors nav and footer- #002458 cards  */
 
-
+/* navbar styling  */
 #navbar {
   background-color: #002558;
   position:sticky;
@@ -19,21 +19,46 @@ header nav ul li a:hover {
   color: white;
 }
 
-span {
-  color:#254f8f;
-  font-weight: bold;
-}
-h3 {
-  color: white;
-}
+/* body styling */
 
-main p {
+body p {
   color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 body {
   background-color: #002458;
 }
+
+span {
+  color:#254f8f;
+
+}
+/* name */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-shadow:0px 0px 1 grey;
+  color: white;
+
+}
+
+
+h3 {
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 200;
+}
+
+
+h5 {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
 
 #projects {
   color:whitesmoke
@@ -45,11 +70,14 @@ body {
 .card {
   background-color:#0a356f;
   border-radius: 5px;
-  box-shadow: 0 0 5px whitesmoke;
-  
+  box-shadow: 0 0 1px whitesmoke;
+  align-items: stretch;
+  justify-content: center ;
 }
 
-
+footer{
+  background-color: #002558
+}
 
 #footer-text{
   color:white;
