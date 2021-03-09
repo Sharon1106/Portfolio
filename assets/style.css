@@ -58,7 +58,9 @@ h5 {
   font-family: 'Roboto', sans-serif;
 }
 
+main {
 
+}
 
 
 #projects {
@@ -98,10 +100,8 @@ footer{
 } 
 
 .my-image {
-  
-  width: 30%;
+  width: 50%;
   height: auto;
-  
 }
     
     
