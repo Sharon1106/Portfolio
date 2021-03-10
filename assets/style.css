@@ -30,6 +30,13 @@ body p {
 body {
   background-color: #002458;
 }
+.btn {
+  font-weight:normal;
+  letter-spacing: 1.25px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+}
 
 span {
   color:#254f8f;
@@ -54,13 +61,11 @@ h3 {
 
 
 h5 {
-  font-weight: 100;
+ 
   font-family: 'Roboto', sans-serif;
 }
 
-main {
 
-}
 
 
 #projects {
@@ -78,6 +83,19 @@ main {
   justify-content: center ;
 }
 
+.card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+
+}
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+}
+
 footer{
   background-color: #002558
 }
@@ -86,7 +104,9 @@ footer{
   color:white;
   background-color: #002558;
 }
-
+#footer-color {
+  background-color: #002558;
+}
 .copyright {
   color:white;
 }
@@ -105,9 +125,9 @@ footer{
 }
     
     
-    /* Default height for small devices 
+ 
 
-    /* Height for devices larger than 992px */
+
 @media (min-width: 992px) {
   #jumbo {
   height: 600px;
@@ -118,14 +138,21 @@ footer{
   #jumbo {
   height: 400px;
   }
+  #navbar {
+    background-color: #002558;
+    }
+    footer {
+      
+      background-color: #002558;
+    }
 }
 @media (min-width: 600px) {
   #navbar {
   background-color: #002558;
   }
-}
-@media (min-width: 600px) {
   footer {
-  background-color: #002558;
+    
+    background-color: #002558;
   }
 }
+
