@@ -12,9 +12,7 @@
   * [Questions](#Questions)
   
   ## Usage 
-  Watch this video!
-  https://drive.google.com/file/d/17yQDT-8Dp32MR_QVlkkC5WbKzw5FgfTq/view
-  ![NOde](https://user-images.githubusercontent.com/30086519/110589488-5683ff00-812b-11eb-998e-2f429272d967.png)
+  https://sharon1106.github.io/Updated-Portfolio/
 
   ## Built with
   HTML | CSS | [font awesome](https://fontawesome.com/) | [Google Fonts API](https://fonts.google.com/) | [Material Design Bootstrap](https://mdbootstrap.com/)
