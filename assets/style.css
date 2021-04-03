@@ -111,6 +111,8 @@ footer{
 
 #jumbo {
       min-height: 900px;
+      max-width: 100%;
+      min-width: 100%;
       background-attachment: fixed;
       background-position: cover;
       background-repeat: no-repeat;
