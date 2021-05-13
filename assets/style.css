@@ -23,6 +23,7 @@ body p {
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  text-align: center;
 }
 
 body {
@@ -120,7 +121,7 @@ footer{
 } 
 
 .my-image {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
     
