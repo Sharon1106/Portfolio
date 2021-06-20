@@ -12,9 +12,13 @@
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
   <!-- google/roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <!-- css file -->
   <link rel="stylesheet" href="assets/style.css" />
 </head>
@@ -41,7 +45,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-me">About me</a>
+              <a  class="nav-link" href="#about-me">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -71,7 +75,7 @@
             </li>
             <!-- linkedin -->
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.linkedin.com/in/sharon-martinez-835723205/">
+              <a class="nav-link" href="https://www.linkedin.com/in/sharon-martinez-r/">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
@@ -97,8 +101,8 @@
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
         <!-- center elements -->
         <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="text-white">
-            <h5>web developer</h5>
+          <div class="text-white my-5">
+            <h4>web developer</h4>
 
             <br>
 
@@ -108,9 +112,9 @@
 
             <br>
 
-            <a class="btn btn-outline-light btn-lg m-2 hover-overlay ripple hover-shadow" href="#projects"
+            <a class="btn btn-outline-light btn-lg m-2 hover-overlay ripple my-5" href="#projects"
               role="button">PROJECTS</a>
-            <p class="mb-3 mx-5 my-5">“Dwell on the beauty of life. Watch the stars, and see yourself running with
+            <p class="quote my-5">“Dwell on the beauty of life. Watch the stars, and see yourself running with
               them.”- Marcus Aurelius</p>
           </div>
         </div>
@@ -126,9 +130,9 @@
       <!-- About me section -->
       <section class="text-center" id="about-me">
         <!-- margin -->
-        <h3 class="my-5">
+        <h2 class="my-5">
           About me
-        </h3>
+        </h2>
         <br>
         <div class="row">
           <!-- left column -->
@@ -136,35 +140,34 @@
             <img src="assets/images/me.png" class="my-image rounded-circle shadow-3-strong mb-4"
               alt="picture of Sharon">
             <p><strong>Who am I?</strong></p>
-            <p>I'm a new full stack web developer based in Los Angeles, California with a passion for all things tech. I
-              started getting into tech in high school, I learned how to service my family member's computers. After
-              that I learned how to fix iPhone hardware issues. Now, I'm learning about computer software by attending a
-              UCLA Extension, Full Stack Web Development coding boot camp. When I'm not busy coding you can probably
-              find me listening to podcasts, watching true crime or hiking with my dog. Stay tuned for future projects!
-              The learning never ends! </p>
+            <p class="about-text">I'm a Full-stack Web Developer based in Los Angeles, California with a passion for learning and creative problem
+            solving. Early on I learned how to service my family member's phones and computers. I commenced and leaned to repair
+            iPhone's hardware issues. I earned a certificate at UCLA's Full Stack Web Development coding boot camp. And am delighted
+            to apply what I've learned into new projects. Learning is a journey that never ends. When I'm not busy coding you can
+            probably find me listening to podcasts, watching true crime or hiking with my dog. </p>
           </div>
           <div class="col-lg-6 col-md-6 my-5">
             <p><strong></strong></p>
             <div class="row">
               <!-- columns have to add up to 12 -->
               <div class="col-md-4 mb-4" id="languages-icons">
-                <i class="fab fa-html5 fa-4x m2"></i>
+                <i class="fab fa-html5 fa-3x m2"></i>
                 <p>HTML</p>
               </div>
               <div class="col-md-4 mb-2" id="languages-icons">
-                <i class="fab fa-css3-alt fa-4x m2"></i>
+                <i class="fab fa-css3-alt fa-3x m2"></i>
                 <p>CSS</p>
               </div>
               <div class="col-md-4 mb-4" id="languages-icons">
-                <i class="fab fa-js fa-4x m2"></i>
+                <i class="fab fa-js fa-3x m2"></i>
                 <p>JS</p>
               </div>
               <div class="col-md-4 mb-4" id="languages-icons">
-                <i class="fab fa-node fa-4x m2"></i>
+                <i class="fab fa-node fa-3x m2"></i>
                 <p>Node</p>
               </div>
               <div class="col-md-4 mb-4" id="languages-icons">
-                <i class="fab fa-react fa-4x m2"></i>
+                <i class="fab fa-react fa-3x m2"></i>
                 <p>React</p>
               </div>
             </div>
@@ -175,75 +178,44 @@
 
       <!-- projects section -->
       <section id="projects" class="text-center">
-        <h3 class="my-5">Projects</h3>
-        <p class="my-5">A few projects I've enjoyed working on.</p>
-
+        <h2 class="my-5">Projects</h2>
+        
         <br>
 
         <!-- project cards -->
         <div class="row">
           <!-- on large screens 4 columns, on medium screens 12 columns -->
+          <!-- yewnity -->
           <div class="col-lg-4 col-md-12 my-5 d-flex">
             <div class="card shadow-2-strong  d-flex">
-              <div class="bg-image hover-overlay ripple hover-shadow" data-mdb-ripple-color="light">
+              <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                 <!-- CARD IMAGE -->
-                <img src="assets/images/WeWantTravel.png" class="img-fluid" />
+                <img src="assets/images/yewnity_.png" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
                   </div>
                 </a>
               </div>
+              
               <div class="card-body">
-                <h5 class="card-title">We want travel!</h5>
-                <p class="card-text"> HTML | CSS | JS </p>
-                <a href="https://cmorris91.github.io/group-project-1/"
+                <h4 class="card-title">Yewnity</h4>
+                <p class="card-text"> Web app for users looking for community service opportunites in their local communities. Users are able to subscribe to non profit organizations, events and volunteer opportunities on a personalized
+                feed.
+                      <br>
+                      <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                        <i class="card-icon fab fa-react fa-2x m-2"></i>
+                </p>
+                <a href="https://intense-cove-54104.herokuapp.com/"
                   class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it live</a>
-                <a href="https://github.com/cmorris91/group-project-1"
+                <a href="https://github.com/Sharon1106/Yewnity"
                   class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
               </div>
             </div>
           </div>
+          <!-- furry day care -->
           <div class="col-lg-4 col-md-6 my-5 d-flex ">
             <div class="card shadow-2-strong">
-              <div class="bg-image hover-overlay ripple hover-shadow" data-mdb-ripple-color="light">
-                <img src="assets/images/share-nodejs-logo.png" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
-                  </div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Professional README Generator</h5>
-                <p class="card-text"> JS | NODE </p>
-                <a href="https://github.com/Sharon1106/Node.js-Professional-ReadMe-Generator"
-                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
-                <a href="https://github.com/Sharon1106/Node.js-Professional-ReadMe-Generator"
-                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 my-5 d-flex ">
-            <div class="card shadow-2-strong">
-              <div class="bg-image hover-overlay ripple hover-shadow" data-mdb-ripple-color="light">
-                <img src="assets/images/note taker1.png" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
-                  </div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Express Note Taker</h5>
-                <p class="card-text"> HTML | CSS | JS | NodeJs | ExpressJs </p>
-                <a href="https://stark-everglades-58372.herokuapp.com/"
-                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
-                <a href="https://github.com/Sharon1106/11Express.js-Note-Taker"
-                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 my-5 d-flex ">
-            <div class="card shadow-2-strong">
-              <div class="bg-image hover-overlay ripple hover-shadow" data-mdb-ripple-color="light">
+              <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                 <img src="assets/images/furry.png" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
@@ -251,8 +223,13 @@
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Furry Day Care</h5>
-                <p class="card-text"> CSS | JS | nodeJs | Handlebars | MySql </p>
+                <h4 class="card-title">Furry Day Care</h4>
+                <p class="card-text">Website for pet owners' users to create secure personal and pet profiles and book appointments.
+                  <br>
+                  <!-- <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                  <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                  <i class="card-icon fab fa-js-square fa-2x m-2"></i> -->
+                 </p>
                 <a href="https://murmuring-island-53639.herokuapp.com/"
                   class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
                 <a href="https://github.com/Sharon1106/FurryDayCare"
@@ -260,9 +237,60 @@
               </div>
             </div>
           </div>
+          <!-- readme -->
           <div class="col-lg-4 col-md-6 my-5 d-flex ">
             <div class="card shadow-2-strong">
-              <div class="bg-image hover-overlay ripple hover-shadow" data-mdb-ripple-color="light">
+              <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
+                <img src="assets/images/share-nodejs-logo.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Professional README Generator</h4>
+                <p class="card-text"> Node application, receives user input and generates professional README markdown files for repository documentation.
+                        <br>
+                        <!-- <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                        <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                        <i class="card-icon fab fa-js-square fa-2x m-2"></i> -->
+                </p>
+                <a href="https://github.com/Sharon1106/Node.js-Professional-ReadMe-Generator"
+                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
+                <a href="https://github.com/Sharon1106/Node.js-Professional-ReadMe-Generator"
+                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
+              </div>
+            </div>
+          </div>
+          <!-- note taker -->
+          <div class="col-lg-4 col-md-6 my-5 d-flex ">
+            <div class="card shadow-2-strong">
+              <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
+                <img src="assets/images/note taker1.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Express Note Taker</h4>
+                <p class="card-text"> Express based, easy to use note taker application. With save and delete functionality.  
+                        <br>
+                        <!-- <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                        <i class="card-icon fab fa-js-square fa-2x m-2"></i>
+                        <i class="card-icon fab fa-js-square fa-2x m-2"></i> -->
+                </p>
+                <a href="https://stark-everglades-58372.herokuapp.com/"
+                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
+                <a href="https://github.com/Sharon1106/11Express.js-Note-Taker"
+                  class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 my-5 d-flex ">
+            <div class="card shadow-2-strong">
+              <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                 <img src="assets/images/yewnity_.png" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
@@ -270,22 +298,23 @@
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Yewnity</h5>
-                <p class="card-text"> MongoDB | ExpressJs | ReactJs | NodeJs </p>
+                <h4 class="card-title">We Want Treavel</h4>
+                <p class="card-text"> Web app for  users to subscribe to local community organization events and volunteer opportunities on a personalized feed.
+                  MongoDB | ExpressJs | ReactJs | NodeJs </p>
                 <a href="https://intense-cove-54104.herokuapp.com/"
                   class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">See it Live</a>
                 <a href="https://github.com/Sharon1106/Yewnity"
                   class="btn btn-outline-light btn-lg m-2  hover-overlay ripple">Code Peek</a>
               </div>
             </div>
-          </div>
+          </div> -->
       </section>
 
       <hr>
 
       <!-- contact me section -->
       <section id="contact-me" class="text-center">
-        <h3 class="my-5">Contact me</h3>
+        <h2 class="my-5">Contact me</h2>
 
         <br>
 
@@ -324,7 +353,7 @@
                 </a>
                 <!-- Linkedin -->
                 <a class="btn btn-primary btn-floating shadow-1" style="background-color: #0082ca;"
-                  href="https://www.linkedin.com/in/sharon-martinez-835723205/" role="button">
+                  href="https://www.linkedin.com/in/sharon-martinez-r/" role="button">
 
                   <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -340,7 +369,7 @@
     <footer>
       <div class="copyright text-center p-3" id="footer-text"> Made with <img src="assets/images/heart icon.png"
           height="25" alt="heart-icon">
-        <a class="text-white"> by Sharon Martinez</a>
+        <a class="sharon"> by Sharon Martinez</a>
       </div>
     </footer>
   </div>

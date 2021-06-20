@@ -2,11 +2,11 @@
 /* navbar styling  */
 #navbar {
   background-color: #002558;
-  position:sticky;
+  position: sticky;
 }
 
-a.nav-link{
-  color:whitesmoke;
+a.nav-link {
+  color: whitesmoke;
 }
 
 header nav ul li a:hover {
@@ -21,9 +21,16 @@ header nav ul li a:hover {
 /* body styling */
 body p {
   color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.about-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 body {
@@ -31,74 +38,82 @@ body {
 }
 
 .btn {
-  font-weight:normal;
+  font-weight: normal;
   letter-spacing: 1.25px;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 span {
-  color:#254f8f;
-
+  color: #254f8f;
 }
 
 /* name */
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  text-shadow:0px 0px 1 grey;
-  color: white;
-
+  text-shadow: 0px 0px 1 grey;
+  color: #3ae3c8;
+  font-family: "Space Mono", monospace;
 }
 
-h3 {
-  color: white;
-  font-family: 'Roboto', 'sans-serif';
+h2 {
+  color: #3ae3c8;
+  font-family: "Roboto", "sans-serif";
   font-weight: 300;
   text-shadow: 0px 0px 5px 5white;
+  font-family: "Space Mono", monospace;
 }
 
-h5 {
- 
-  font-family: 'Roboto', sans-serif;
+h4 {
+  font-weight: 300;
+}
+
+h4.card-title {
+  font-family: "Space Mono", monospace;
+}
+
+p.quote {
+  font-size: 14px;
+}
+
+i.card-icon {
+  color: #3ae3c8;
 }
 
 #projects {
-  color:whitesmoke
+  color: whitesmoke;
 }
 
 #languages-icons {
-  color:white;
+  color: white;
 }
 .card {
-  background-color:#0a366fc4;
+  background-color: #0a366fc4;
   border-radius: 5px;
   box-shadow: 0 0 1px whitesmoke;
   align-items: stretch;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .card-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
-
 }
 
 .card-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
-  letter-spacing: 1.5px;
   font-size: 12px;
 }
 
-footer{
-  background-color: #002558
+footer {
+  background-color: #002558;
 }
 
-#footer-text{
-  color:white;
+#footer-text {
+  color: white;
   background-color: #002558;
 }
 
@@ -107,49 +122,68 @@ footer{
 }
 
 .copyright {
-  color:white;
+  color: white;
 }
 
 #jumbo {
-      min-height: 900px;
-      max-width: 100%;
-      min-width: 100%;
-      background-attachment: fixed;
-      background-position: cover;
-      background-repeat: no-repeat;
-      background-size: cover;
-} 
+  min-height: 900px;
+  max-width: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .my-image {
   width: 40%;
   height: auto;
 }
-    
+
+span.iconify {
+  color: white;
+}
+
+img.handlebars {
+  width: 50px;
+}
+
+img.sql {
+  width: 50px;
+  color: #ffff;
+}
+
+i {
+  font-size: small;
+}
+
+a.sharon {
+  color: #3ae3c8;
+}
+
 @media (min-width: 992px) {
   #jumbo {
-  height: 600px;
+    height: 600px;
   }
 }
 
 @media (min-width: 992px) {
   #jumbo {
-  height: 400px;
+    height: 400px;
   }
   #navbar {
     background-color: #002558;
-    }
-    footer {
-      
-      background-color: #002558;
-    }
+  }
+  footer {
+    background-color: #002558;
+  }
 }
 
 @media (min-width: 600px) {
   #navbar {
-  background-color: #002558;
+    background-color: #002558;
   }
   footer {
-    
     background-color: #002558;
   }
 }
