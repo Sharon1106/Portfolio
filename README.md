@@ -1,15 +1,7 @@
-# Updated Portfolio-3
+# Updated Portfolio
 
   ## Description
  My updated portfolio page!
-
-
-  ## Table of Contents
-
-  * [Usage](#Usage)
-  * [Built with](#Built-with)
-  * [License](#License)
-  * [Questions](#Questions)
   
   ## Usage 
   https://sharon1106.github.io/Updated-Portfolio/
