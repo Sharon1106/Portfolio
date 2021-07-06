@@ -1,4 +1,4 @@
-# Updated Portfolio
+# Portfolio
 
   ## Description
  My updated portfolio page!
