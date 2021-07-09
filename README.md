@@ -4,7 +4,7 @@
  My updated portfolio page!
   
   ## Usage 
-  https://sharon1106.github.io/Updated-Portfolio/
+  https://sharon1106.github.io/Portfolio/
 
   ## Built with
   HTML | CSS | [font awesome](https://fontawesome.com/) | [Google Fonts API](https://fonts.google.com/) | [Material Design Bootstrap](https://mdbootstrap.com/)
