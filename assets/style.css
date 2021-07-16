@@ -81,6 +81,10 @@ i.card-icon {
   color: #3ae3c8;
 }
 
+img.card-icon {
+  height: 25px;
+}
+
 #projects {
   color: whitesmoke;
 }
@@ -145,7 +149,11 @@ span.iconify {
 }
 
 img.handlebars {
-  width: 50px;
+  height: 45px;
+}
+span.express {
+  height: 50px;
+  color: #3ae3c8;
 }
 
 img.sql {
@@ -159,6 +167,11 @@ i {
 
 a.sharon {
   color: #3ae3c8;
+}
+
+.mongodb img {
+  height: 60px;
+  color: #ffff;
 }
 
 @media (min-width: 992px) {
